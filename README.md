@@ -4,7 +4,7 @@
 
 * Após isso, roda:
 ```mount /dev/sda2 /mnt```
-  **(onde geralmente fica a raiz, lembrando que o sda se aplica a hdd/ssd sata, nvme é nvme0n1p entre outros)**
+  **(onde geralmente fica a raiz, lembrando que o sdX (X pode ser a, b, c e etc. Exemplo -> sda ou sdb) se aplica a hdd/ssd sata, nvme é nvmeXn1 (esse X é a numeração do disco, exemplo -> nvme0n1) e vdX (onde o X pode ser a. b. c e etc. Exemplo -> vda entre outros)**
 
  * Rodar após:
  ``` mount /dev/sda1 /mnt/boot```
